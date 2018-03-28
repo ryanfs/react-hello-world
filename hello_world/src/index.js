@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Hello from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Hello from './App.js';
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
-registerServiceWorker();
+ReactDOM.render(
+  <Hello name={"Nick"} />,
+  document.getElementById('root')
+)
